@@ -1,0 +1,34 @@
+.gitattributes
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+
+# SvelteKit build output
+.svelte-kit/
+build/
+dist/
+
+# VSCode settings
+.vscode/
+*.code-workspace
+
+# dotenv
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-image.tar
+*.gz
+
+# Others
+*.log
+webui.db
+*.sqlite
+
